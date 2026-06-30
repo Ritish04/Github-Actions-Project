@@ -11,9 +11,7 @@ on:
 
 jobs:
   build:
-
     runs-on: Agent-01
-    
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
